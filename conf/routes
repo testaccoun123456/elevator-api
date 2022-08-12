@@ -4,7 +4,6 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index()
 POST    /requestElevator/           controllers.HomeController.requestElevator()
 POST    /requestFloor/              controllers.HomeController.requestFloor()
 GET     /requestedFloors/           controllers.HomeController.requestedFloors()
